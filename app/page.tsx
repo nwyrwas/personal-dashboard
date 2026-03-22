@@ -2,6 +2,7 @@ import Clock from "./components/Clock";
 import Weather from "./components/Weather";
 import GitHub from "./components/Github";
 import News from "./components/News";
+import Status from "./components/Status";
 
 function getGreeting(): string {
   const hour = new Date().getHours();
@@ -47,6 +48,9 @@ export default function Home() {
           <GitHub />
           <div className="md:col-span-2 lg:col-span-3">
             <News />
+          </div>
+          <div className="md:col-span-2 lg:col-span-3">
+            <Status />
           </div>
         </div>
       </div>
