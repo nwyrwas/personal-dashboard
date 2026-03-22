@@ -21,7 +21,7 @@ export default function Home() {
         playsInline
         className="fixed inset-0 w-full h-full object-cover -z-10"
       >
-        <source src="/city.mp4" type="video/mp4" />
+        <source src="/city-compressed.mp4" type="video/mp4" />
       </video>
       {/* Dark overlay so text is readable */}
       <div className="fixed inset-0 bg-gray-950/50 -z-10" />
