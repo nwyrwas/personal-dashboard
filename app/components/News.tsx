@@ -25,7 +25,7 @@ export default function News() {
 
   if (loading) {
     return (
-      <div className="bg-gray-900 rounded-2xl p-6 border border-gray-800 animate-pulse">
+      <div className="bg-gray-900/30 backdrop-blur-md rounded-2xl p-6 border border-gray-800/50 animate-pulse">
         <div className="h-4 bg-gray-700 rounded w-24 mb-4"></div>
         {[...Array(4)].map((_, i) => (
           <div key={i} className="h-4 bg-gray-700 rounded w-full mb-3"></div>
@@ -35,7 +35,7 @@ export default function News() {
   }
 
   return (
-    <div className="bg-gray-900 rounded-2xl p-6 border border-gray-800 w-full">
+    <div className="bg-gray-900/30 backdrop-blur-md rounded-2xl p-6 border border-gray-800/50 hover:border-gray-700/50 transition-all duration-300 w-full">
       <h2 className="text-sm font-medium text-gray-400 uppercase tracking-wide mb-4">
         Hacker News
       </h2>

@@ -12,7 +12,20 @@ function getGreeting(): string {
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gray-950 text-white">
+    <main className="min-h-screen text-white relative">
+      {/* Animated Background */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="fixed inset-0 w-full h-full object-cover -z-10"
+      >
+        <source src="/city.mp4" type="video/mp4" />
+      </video>
+      {/* Dark overlay so text is readable */}
+      <div className="fixed inset-0 bg-gray-950/50 -z-10" />
+
       {/* Header */}
       <header className="px-8 pt-8 pb-2">
         <h1 className="text-4xl font-bold tracking-tight">
