@@ -2,7 +2,11 @@
 
 A real-time personal dashboard built with Next.js, featuring live weather updates, GitHub profile stats, a Hacker News feed, and a dynamic clock — all in a sleek dark UI.
 
-![Dashboard Screenshot](public/Image.png)
+[**Live Demo**](https://personal-dashboard-khaki.vercel.app/) — Check it out on Vercel!
+
+![Dashboard Screenshot](https://raw.githubusercontent.com/nwyrwas/personal-dashboard/main/public/Image.jpg)
+
+
 
 ## Features
 
